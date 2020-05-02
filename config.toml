@@ -1,0 +1,59 @@
+baseURL = "http://rappet.de/"
+languageCode = "de-de"
+
+title = "rappet's Blog"
+theme = "erblog"
+
+[params]
+author = "Raphael Peters"
+description = "My blog"
+portrait = "img/avatar.jpg"
+bio = "Software engineer and hobby DevOps"
+externalTitle = "rappet's Blog"
+sidebarColor = "default"
+customCss = []
+copyright = "&copy; Raphael Peters. Powered by <a href='https://gohugo.io' style='color:#FFFFFF'>Hugo</a> and <a href='https://github.com/ertuil/erblog' style='color:#FFFFFF'>Erblog</a>."
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    style = "monokai"
+
+[[menu.shortcuts]]
+name = "rappet on GitHub"
+url = "https://github.com/rappet"
+weight = 10
+
+[[menu.icon]]
+	url = "mailto:rappet+blog@rappet.de"
+	name = "envelope-o"
+	weight = 1
+
+[[menu.icon]]
+  url = "https://github.com"
+  name = "github"
+  weight = 1
+
+[[menu.icon]]
+  url = "https://twitter.com/rappet_"
+  name = "twitter"
+  weight = 1
+
+[[menu.icon]]
+  url = "https://t.me/rappet"
+  name = "telegram"
+  weight = 1
+
+[[menu.icon]]
+  url = "https://www.linkedin.com/in/raphael-peters-088baa165/"
+  name = "linkedin"
+  weight = 10
+
+[[menu.icon]]
+  url = "https://www.xing.com/profile/Raphael_Peters13/cv"
+  name = "xing"
+  weight = 10
