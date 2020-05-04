@@ -1,4 +1,4 @@
-baseURL = "http://rappet.de/"
+baseURL = "https://rappet.de/"
 languageCode = "de-de"
 
 title = "rappet's Blog"
